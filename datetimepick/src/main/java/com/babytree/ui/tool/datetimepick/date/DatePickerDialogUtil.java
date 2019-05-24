@@ -90,7 +90,7 @@ public class DatePickerDialogUtil {
 
     private void init(Context context, Calendar calendar, ShowState showState, Calendar maxDate, Calendar minDate) {
         this.context = context;
-        this.layout = LayoutInflater.from(context).inflate(R.layout.timepicker_new, null);
+        this.layout = LayoutInflater.from(context).inflate(R.layout.np_timepicker, null);
         if (minDate != null) {
             this.minDate = minDate;
         } else {//默认最小值： 1970 年

@@ -53,7 +53,7 @@ public class TextPickerDialogUtil {
     private void init(Context context) {
         this.context = context;
         this.pickers = new ArrayList<>();
-        this.layout = (LinearLayout) LayoutInflater.from(context).inflate(R.layout.textpicker_new, null);
+        this.layout = (LinearLayout) LayoutInflater.from(context).inflate(R.layout.np_textpicker, null);
     }
 
     /**
