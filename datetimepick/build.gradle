@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply from: 'mvn.gradle'
 apply from: 'http://baf.babytree-inc.com/android/app/pregnancy/pregnancy_version_v1.0.5.gradle'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -37,3 +38,6 @@ dependencies {
     compile "com.nineoldandroids:library:$rootProject.ext.nineoldandroids_library"
 
 }
+
+//要放在最下面
+apply from: 'jcenter.gradle'
