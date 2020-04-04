@@ -1,5 +1,5 @@
 ## 简单的多项选择对话框
-![screen.png]
+![截图](/screen.png)
 
 ```java
           if (mDatePicker == null) {
