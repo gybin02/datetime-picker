@@ -1,4 +1,7 @@
 ## 简单的多项选择对话框
+```
+    api 'com.seeker.tool:datetime-picker:0.0.3'
+```
 - 多选选择框
 - 日期选择框
 
